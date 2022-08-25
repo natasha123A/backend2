@@ -16,9 +16,7 @@ app.use(express.static('public'));
 
 app.set('view engine', 'ejs');
 
-app.get("/", (req, res) => {
-    res.json({ message: "Welcome to my application." });
-  });
+
  
 const teacherRoutes = require('./server/routes/teacherRoute');
 const studentRoutes = require('./server/routes/studentRoute');
