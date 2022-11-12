@@ -1,9 +1,9 @@
 
 const env = {
   database: "productsdb",
-  username: "backendserver@backendserver8976",
+  username: "myservrer@myserver9087",
   password: "jinvjung@123A",
-  host: "backendserver8976.mysql.database.azure.com",
+  host: "myserver9087.mysql.database.azure.com",
   dialect: "mysql",
 };
 
